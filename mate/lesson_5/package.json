@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "hello": "nodemon src/hello.js",
+    "test": "nodemon src/test.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
