@@ -1,0 +1,16 @@
+# Главный файл config
+root = true;
+
+# Добавляем пустую линию во всех файлах в конце
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Кодировка
+[*.{js,py}]
+charset = utf-8
+
+# Количество пробелов
+[*.js]
+indent_style = space
+indent_size = 4
