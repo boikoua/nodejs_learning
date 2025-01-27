@@ -1,7 +1,9 @@
 {
   "type": "module",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "dotenv": "^16.4.7",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.8"
   },
   "scripts": {
     "start": "nodemon src/app.js",

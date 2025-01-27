@@ -1,13 +1,6 @@
-function add(...numbers) {
-    let sum = 0;
-    const hello = 'hello';
-    console.log(hello);
+import dotenv from 'dotenv';
+import minimist from 'minimist';
 
-    for (const n of numbers) {
-        sum += n;
-    }
+dotenv.config();
 
-    return sum;
-}
-
-console.log(add(1, 2, 3, 4, 5));
+console.log(minimist(process.argv.slice(2)));
