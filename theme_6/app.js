@@ -13,6 +13,7 @@ const server = http.createServer((req, res) => {
 
   res.setHeader('Content-Type', 'text/html');
 
+  // функция для формирования страницы
   const createPath = (page) => path.resolve(__dirname, 'views', `${page}.html`);
 
   let basePath = '';
